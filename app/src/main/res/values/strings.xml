@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MAD_Task_03</string>
+    <string name="heading"><b>Heading</b></string>
+    <string name="sub_heading"><b>Sub Heading</b></string>
+    <string name="article"><i>Lorem ipsum</i> dolor sit amet, www.abc.com consectetur adipisicing elit. Ad debitis et iure nostrum optio quae quas quibusdam quo ut vero. At debitis maiores nulla officia provident quidem rem voluptatem voluptatibus!
+    <i>Lorem ipsum</i> dolor sit amet, consectetur adipisicing elit. Aliquid dolor eligendi explicabo fugit hic modi neque omnis tenetur ullam? Accusantium animi corporis cumque, distinctio ducimus magnam provident rerum sed voluptates.
+    <i>Lorem ipsum</i> dolor sit amet, consectetur adipisicing elit. Beatae culpa placeat rem. Illo, modi nesciunt omnis optio rerum sed veniam? Accusamus cupiditate dolore earum eligendi, modi nihil praesentium similique unde!</string>
+</resources>

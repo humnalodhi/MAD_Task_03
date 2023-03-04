@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:text="@string/heading"
+            android:textSize="60dp"
+            tools:layout_editor_absoluteX="147dp"
+            tools:layout_editor_absoluteY="59dp"
+            />
+
+        <TextView
+            android:id="@+id/sub_heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/heading"
+            android:gravity="center"
+            android:text="@string/sub_heading"
+            android:textSize="30dp"
+            tools:layout_editor_absoluteX="152dp"
+            tools:layout_editor_absoluteY="118dp" />
+
+        <TextView
+            android:id="@+id/article"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sub_heading"
+            android:gravity="center"
+            android:text="@string/article"
+            android:textSize="30dp"
+            tools:layout_editor_absoluteX="161dp"
+            tools:layout_editor_absoluteY="205dp"
+            android:autoLink="web"/>
+        </RelativeLayout>
+</ScrollView>
